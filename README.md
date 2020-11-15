@@ -17,7 +17,7 @@ Components in use:
 - Sensirion SGP30 sensor
 - Bosch BME280 sensor
 - DS3231 RTC modul
-- 2 0.96 inch OLED moduls
+- 2 x 0.96 inch OLED moduls
 - Arduino Nano
-- 2 electronic switches
+- 2 x electronic switches
 - Wires with different profiles
