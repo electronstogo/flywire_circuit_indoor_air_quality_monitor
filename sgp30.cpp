@@ -146,9 +146,9 @@ void SGP30Sensor::set_absolute_humidity(uint16_t abs_humidity)
 
 uint8_t SGP30Sensor::generate_crc(uint8_t *data, uint8_t data_length)
 {
-  uint8_t crc = 0xFF;
+  unsigned char crc = 0xFF;
 
-  for (uint8_t i = 0; i < data_length; i++)
+  for (int i = 0; i < data_length; i++)
   {
     //crc ^= (data >> (i * 8)) & 0xFF;
 	crc ^= data[i];
@@ -173,7 +173,7 @@ uint16_t SGP30Sensor::get_featureset()
 	Wire.endTransmission();
 	
 	
-	uint8_t io_buffer[3];
+	unsigned char io_buffer[3];
 	Wire.requestFrom(SGP30_I2C_ADDRESS, 3);
 	for(int i = 0; i < 3; i++)io_buffer[i] = Wire.read();
 	
