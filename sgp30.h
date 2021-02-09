@@ -1,11 +1,13 @@
+// 2020 - electronstogo
+
 #ifndef SGP30_H_
 #define SGP30_H_
 
-
 #include <Wire.h>
 
+
 #define SGP30_I2C_ADDRESS 	0x58
-#define SGP30_CRC8_POLYNOMIAL 0x31
+#define SGP30_CRC8_POLYNOMIAL 	0x31
 
 #define CONCAT_BYTES(msb, lsb)             (((uint16_t)msb << 8) | (uint16_t)lsb)
 
