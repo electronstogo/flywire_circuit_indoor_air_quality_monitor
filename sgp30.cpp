@@ -1,9 +1,10 @@
+// 2020 - electronstogo
+
 #include "sgp30.h"
 #include <util/delay.h>
 #include <math.h>
 #include <stdlib.h>
 
-#define	F_CPU   20000000UL
 
 
 
