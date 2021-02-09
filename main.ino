@@ -1,3 +1,5 @@
+// 2020 - electronstogo
+
 #include <avr/sleep.h>
 #include "sgp30.h"
 #include "bme280.h"
@@ -9,12 +11,12 @@
 
 
 
-
 /**
 * RTC handling stuff.
 */
 
 #define RTC_I2C_ADDRESS 0x68
+
 
 
 // Sets the time in the RTC registers, with the given arguments.
