@@ -1,12 +1,14 @@
+// 2020 - electronstogo
+
 #ifndef BME280_H_
 #define BME280_H_
 
-
 #include <Wire.h>
 
-#define BME280_I2C_ADDRESS 	0x76
 
-#define CONCAT_BYTES(msb, lsb)             (((uint16_t)msb << 8) | (uint16_t)lsb)
+#define BME280_I2C_ADDRESS 		0x76
+
+#define CONCAT_BYTES(msb, lsb)          (((uint16_t)msb << 8) | (uint16_t)lsb)
 
 
 class BME280Sensor
