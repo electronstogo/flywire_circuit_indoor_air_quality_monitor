@@ -1,3 +1,5 @@
+// 2020 - electronstogo
+
 #ifndef SSD1306_H_
 #define SSD1306_H_
 
