@@ -1,3 +1,5 @@
+// 2020 - electronstogo
+
 #include <Wire.h>
 #include "ssd1306.h"
 #include <ctype.h>
