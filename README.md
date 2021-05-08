@@ -1,6 +1,14 @@
-# flywire_circuit_indoor_air_quality_monitor
+# air_quality_monitor_prj_2
+
 Flywire circuit that shows different measurement values to rate the indoor air quality.
-To see what is meant, best way is to look at the images :).
+To see what is meant, best way is to look at the images.
+
+IMPORTANT:
+In this project the Sensirion sensor SGP30 was used.
+From my point of view the successor SGP40 works much better.
+
+
+
 
 This circuit uses 2 OLED displays to show the following values:
 
