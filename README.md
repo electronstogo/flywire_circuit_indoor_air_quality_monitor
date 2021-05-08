@@ -4,8 +4,10 @@ Flywire circuit that shows different measurement values to rate the indoor air q
 To see what is meant, best way is to look at the images.
 
 IMPORTANT:
+
 In this project the Sensirion sensor SGP30 was used.
 From my point of view the successor SGP40 works much better.
+
 
 
 
