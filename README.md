@@ -10,7 +10,8 @@ IMPORTANT: In this project the Sensirion sensor SGP30 was used. From my point of
 
 
 
-This circuit uses 2 OLED displays to show the following values:
+This project uses 2 OLED displays to show the following values
+--------------------------------------------------------------
 
 - TVOC [PPB]
 - CO2 [PPM]
@@ -21,6 +22,7 @@ This circuit uses 2 OLED displays to show the following values:
 
 
 Components in use:
+------------------
 
 - Sensirion SGP30 sensor
 - Bosch BME280 sensor
